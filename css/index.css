@@ -1,29 +1,27 @@
 body{
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 16px;
-    width: 260px;
+    width: 270px;
     height: 420px;
-    margin-left: 40%;
-    margin-top: 8%;
-}
-@media (max-width: 600px){
-    main{
-        margin-left: 15%;
-    }
 }
 img{
     border-radius: 4%;
-    width: 240px;
+    width: 250px;
     margin: 10px;
 }
-.first{
-    padding-left: 20px;
+h1{
+    padding-left: 25px;
     text-align: center;
+    font-size: 15px;
     width: 220px;
     font-weight: 900;
     color: hsl(218, 44%, 22%);
@@ -31,8 +29,8 @@ img{
 p:last-child{
     color: hsl(220, 15%, 55%);
     text-align: center;
-    font-weight: 400;
     font-size: 12px;
-    padding-left: 30px;
-    width: 200px;
+    font-weight: 400;
+    padding-left: 25px;
+    width: 220px;
 }
